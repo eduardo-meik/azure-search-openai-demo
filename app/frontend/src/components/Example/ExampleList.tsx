@@ -8,12 +8,19 @@ export type ExampleModel = {
 };
 
 const EXAMPLES: ExampleModel[] = [
-    {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
-    },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+{
+    text: "Informe de un incidente de desprendimiento de rocas en la mina, causando lesiones graves a dos mineros.",
+    value: "Informe de un incidente de desprendimiento de rocas en la mina, causando lesiones graves a dos mineros."
+},
+{
+    text: "Respuesta de emergencia a una fuga de gas tóxico en el pozo de ventilación, requiriendo evacuación inmediata del personal.",
+    value: "Respuesta de emergencia a una fuga de gas tóxico en el pozo de ventilación, requiriendo evacuación inmediata del personal."
+},
+{
+    text: "Informe de incidente por colapso de una estructura de soporte en una galería subterránea, resultando en un trabajador atrapado y gravemente herido.",
+    value: "Informe de incidente por colapso de una estructura de soporte en una galería subterránea, resultando en un trabajador atrapado y gravemente herido."
+}
+
 ];
 
 interface Props {
